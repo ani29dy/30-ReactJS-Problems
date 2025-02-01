@@ -1,7 +1,14 @@
 import "./App.css";
+import One from "./Problems/One";
+import Two from "./Problems/Two";
 
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      {/* <One /> */}
+      <Two />
+    </>
+  );
 }
 
 export default App;
