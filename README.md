@@ -29,3 +29,5 @@ This repository contains **30+ ReactJS problems** ranging from Basic to Advanced
 ## How to Use 🛠️
 
 1. **Clone the Repository**:
+https://github.com/ani29dy/30-ReactJS-Problems.git
+cd 30-ReactJS-Problems
