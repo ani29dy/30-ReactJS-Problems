@@ -1,6 +1,6 @@
 # 30+ ReactJS Problems 🚀
 
-![Alt Text](./src/assets/React.png)
+![Alt Text](./src/assets/React.png){width=300 height=300}
 
 Welcome to **30+ ReactJS Problems**! This repository is a collection of ReactJS challenges, exercises, and problems to help you sharpen your React skills. Whether you're a beginner or an experienced developer, these problems will help you understand React concepts better and improve your problem-solving abilities.
 
