@@ -22,7 +22,7 @@ This repository contains **30+ ReactJS problems** ranging from Basic to Advanced
 
 ## Features ✨
 
-- **Beginner-friendly**: Problems are categorized by difficulty level.
+- **Beginner-friendly**: Problems are categorized by difficulty level(Easy to Hard).
 - **Interactive**: Feel free to fork the repo and try solving the problems yourself.
 - **Open Source**: Contributions are welcome! Add your own problems or improve existing ones.
 
