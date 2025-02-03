@@ -1,14 +1,16 @@
 import "./App.css";
-import One from "./Problems/One";
-import Three from "./Problems/Three";
-import Two from "./Problems/Two";
+import Lists from "./Problems/04-Lists";
+import One from "./Problems/01-Hello_World";
+import Three from "./Problems/03-Forms";
+import Two from "./Problems/02-UseState";
 
 function App() {
   return (
     <>
       {/* <One /> */}
       {/* <Two /> */}
-      <Three />
+      {/* <Three /> */}
+      <Lists />
     </>
   );
 }
