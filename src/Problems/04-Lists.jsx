@@ -1,8 +1,15 @@
 import React from "react";
 
 const Lists = () => {
+  const list = ["Item1", "Item2", "Item3", "Item4", "Item5"];
+
   return (
     <div>
+      <ul>
+        {list.map((item, id) => {
+          return <li key={id}>{item}</li>;
+        })}
+      </ul>
       <div>
         Ordered Lists
         <ol>
