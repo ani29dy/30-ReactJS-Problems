@@ -3,6 +3,7 @@ import Lists from "./Problems/04-Lists";
 import One from "./Problems/01-Hello_World";
 import Three from "./Problems/03-Forms";
 import Two from "./Problems/02-UseState";
+import Toggle from "./Problems/05-Toggle";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <One /> */}
       {/* <Two /> */}
       {/* <Three /> */}
-      <Lists />
+      {/* <Lists /> */}
+      <Toggle />
     </>
   );
 }
