@@ -4,6 +4,7 @@ import One from "./Problems/01-Hello_World";
 import Three from "./Problems/03-Forms";
 import Two from "./Problems/02-UseState";
 import Toggle from "./Problems/05-Toggle";
+import Fetch from "./Problems/06-Fetch";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <Two /> */}
       {/* <Three /> */}
       {/* <Lists /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <Fetch />
     </>
   );
 }
