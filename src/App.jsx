@@ -5,6 +5,7 @@ import Three from "./Problems/03-Forms";
 import Two from "./Problems/02-UseState";
 import Toggle from "./Problems/05-Toggle";
 import Fetch from "./Problems/06-Fetch";
+import Time from "./Problems/07-Time";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Three /> */}
       {/* <Lists /> */}
       {/* <Toggle /> */}
-      <Fetch />
+      {/* <Fetch /> */}
+      <Time />
     </>
   );
 }
