@@ -7,6 +7,7 @@ import Toggle from "./Problems/05-Toggle";
 import Fetch from "./Problems/06-Fetch";
 import Time from "./Problems/07-Time";
 import TodoList from "./Problems/08-TodoList";
+import BgChange from "./Problems/09-BgChange";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Toggle /> */}
       {/* <Fetch /> */}
       {/* <Time /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <BgChange />
     </>
   );
 }
