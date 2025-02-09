@@ -8,6 +8,7 @@ import Fetch from "./Problems/06-Fetch";
 import Time from "./Problems/07-Time";
 import TodoList from "./Problems/08-TodoList";
 import BgChange from "./Problems/09-BgChange";
+import Router from "./Problems/10-Router";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Fetch /> */}
       {/* <Time /> */}
       {/* <TodoList /> */}
-      <BgChange />
+      {/* <BgChange /> */}
+      <Router />
     </>
   );
 }
