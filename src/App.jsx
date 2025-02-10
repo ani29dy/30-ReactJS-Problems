@@ -9,6 +9,7 @@ import Time from "./Problems/07-Time";
 import TodoList from "./Problems/08-TodoList";
 import BgChange from "./Problems/09-BgChange";
 import Router from "./Problems/10-Router";
+import RandomQoutes from "./Problems/11-RandomQoutes";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <Time /> */}
       {/* <TodoList /> */}
       {/* <BgChange /> */}
-      <Router />
+      {/* <Router /> */}
+      <RandomQoutes />
     </>
   );
 }
