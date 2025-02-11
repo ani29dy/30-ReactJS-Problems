@@ -10,6 +10,7 @@ import TodoList from "./Problems/08-TodoList";
 import BgChange from "./Problems/09-BgChange";
 import Router from "./Problems/10-Router";
 import RandomQoutes from "./Problems/11-RandomQoutes";
+import UploadImage from "./Problems/12-UploadImage";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <TodoList /> */}
       {/* <BgChange /> */}
       {/* <Router /> */}
-      <RandomQoutes />
+      {/* <RandomQoutes /> */}
+      <UploadImage />
     </>
   );
 }
