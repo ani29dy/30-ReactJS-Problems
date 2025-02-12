@@ -11,6 +11,7 @@ import BgChange from "./Problems/09-BgChange";
 import Router from "./Problems/10-Router";
 import RandomQoutes from "./Problems/11-RandomQoutes";
 import UploadImage from "./Problems/12-UploadImage";
+import LoginForm from "./Problems/13-LoginForm";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <BgChange /> */}
       {/* <Router /> */}
       {/* <RandomQoutes /> */}
-      <UploadImage />
+      {/* <UploadImage /> */}
+      <LoginForm />
     </>
   );
 }
