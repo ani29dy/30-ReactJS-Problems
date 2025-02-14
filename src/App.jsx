@@ -12,6 +12,7 @@ import Router from "./Problems/10-Router";
 import RandomQoutes from "./Problems/11-RandomQoutes";
 import UploadImage from "./Problems/12-UploadImage";
 import LoginForm from "./Problems/13-LoginForm";
+import WeatherAPI from "./Problems/14-WeatherAPI";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <Router /> */}
       {/* <RandomQoutes /> */}
       {/* <UploadImage /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <WeatherAPI />
     </>
   );
 }
