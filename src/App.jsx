@@ -13,8 +13,19 @@ import RandomQoutes from "./Problems/11-RandomQoutes";
 import UploadImage from "./Problems/12-UploadImage";
 import LoginForm from "./Problems/13-LoginForm";
 import WeatherAPI from "./Problems/14-WeatherAPI";
+import SearchBar from "./Problems/15-SearchBar";
 
 function App() {
+  const item = [
+    "Item 1",
+    "Item 2",
+    "Item 3",
+    "Item 4",
+    "Another Item",
+    "Another Item 2",
+    "Another Item 3",
+  ];
+
   return (
     <>
       {/* <One /> */}
@@ -30,7 +41,8 @@ function App() {
       {/* <RandomQoutes /> */}
       {/* <UploadImage /> */}
       {/* <LoginForm /> */}
-      <WeatherAPI />
+      {/* <WeatherAPI /> */}
+      <SearchBar items={item} />
     </>
   );
 }
