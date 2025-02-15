@@ -17,15 +17,14 @@ const WeatherAPI = () => {
           });
       });
     }
-  });
+  }, []);
 
   return (
     <div>
       {weather ? (
         <div>
           <h2>Current Weather</h2>
-          {weather}
-          <p>Temperature: {weather.main.temp}</p>
+          <p>Temperature: {weather.main.temp - 273.15}°C</p>
           <p>Condition: {weather.weather[0].description}</p>
         </div>
       ) : (
