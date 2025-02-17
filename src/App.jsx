@@ -15,6 +15,7 @@ import LoginForm from "./Problems/13-LoginForm";
 import WeatherAPI from "./Problems/14-WeatherAPI";
 import SearchBar from "./Problems/15-SearchBar";
 import Pagination from "./Problems/16-Pagination";
+import ColorPicker from "./Problems/17-ColorPicker";
 
 function App() {
   const item = [
@@ -44,7 +45,8 @@ function App() {
       {/* <LoginForm /> */}
       {/* <WeatherAPI /> */}
       {/* <SearchBar items={item} /> */}
-      <Pagination items={item} itemsPerPage={2} />
+      {/* <Pagination items={item} itemsPerPage={2} /> */}
+      <ColorPicker />
     </>
   );
 }
