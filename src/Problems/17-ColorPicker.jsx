@@ -13,8 +13,8 @@ const ColorPicker = () => {
       <br />
       <div
         style={{
-          width: "100px",
-          height: "100px",
+          width: "200px",
+          height: "200px",
           backgroundColor: selectedColor,
         }}
       ></div>
