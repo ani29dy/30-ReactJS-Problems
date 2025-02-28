@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .icon {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+.nav {
+  display: none;
+}
+
+.nav.open {
+  display: block;
+}
+
+/* .nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: auto;
+  padding: 10px;
+}
+
+.nav ul li {
+  padding: 0 20px;
+} */
+
+.icon {
+  display: block;
+  cursor: pointer;
+}
