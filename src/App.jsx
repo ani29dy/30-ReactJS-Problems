@@ -16,6 +16,7 @@ import WeatherAPI from "./Problems/14-WeatherAPI";
 import SearchBar from "./Problems/15-SearchBar";
 import Pagination from "./Problems/16-Pagination";
 import ColorPicker from "./Problems/17-ColorPicker";
+import NavigationMenu from "./Problems/18-NavigationMenu";
 
 function App() {
   const item = [
@@ -46,7 +47,8 @@ function App() {
       {/* <WeatherAPI /> */}
       {/* <SearchBar items={item} /> */}
       {/* <Pagination items={item} itemsPerPage={2} /> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      <NavigationMenu />
     </>
   );
 }
