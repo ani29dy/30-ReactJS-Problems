@@ -17,6 +17,9 @@ import SearchBar from "./Problems/15-SearchBar";
 import Pagination from "./Problems/16-Pagination";
 import ColorPicker from "./Problems/17-ColorPicker";
 import NavigationMenu from "./Problems/18-NavigationMenu";
+import ChangeThemeComp from "./Problems/19-ChangeThemeComp";
+import ChangeTheme from "./Problems/19-ChangeTheme";
+import { ThemeProvider } from "./ThemeContext";
 
 function App() {
   const item = [
@@ -48,7 +51,13 @@ function App() {
       {/* <SearchBar items={item} /> */}
       {/* <Pagination items={item} itemsPerPage={2} /> */}
       {/* <ColorPicker /> */}
-      <NavigationMenu />
+      {/* <NavigationMenu /> */}
+      <ThemeProvider>
+        <div className="App">
+          <ChangeTheme />
+          <ChangeThemeComp />
+        </div>
+      </ThemeProvider>
     </>
   );
 }
