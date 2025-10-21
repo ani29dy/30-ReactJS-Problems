@@ -20,6 +20,8 @@ import NavigationMenu from "./Problems/18-NavigationMenu";
 import ChangeThemeComp from "./Problems/19-ChangeThemeComp";
 import ChangeTheme from "./Problems/19-ChangeTheme";
 import { ThemeProvider } from "./ThemeContext";
+import ShoppingCart from "./Problems/20-Shopping";
+import Counter from "./Problems/21_Counter";
 
 function App() {
   const item = [
@@ -52,12 +54,14 @@ function App() {
       {/* <Pagination items={item} itemsPerPage={2} /> */}
       {/* <ColorPicker /> */}
       {/* <NavigationMenu /> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className="App">
           <ChangeTheme />
           <ChangeThemeComp />
         </div>
-      </ThemeProvider>
+      </ThemeProvider> */}
+      <ShoppingCart />
+      {/* <Counter /> */}
     </>
   );
 }
