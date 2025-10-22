@@ -60,8 +60,8 @@ function App() {
           <ChangeThemeComp />
         </div>
       </ThemeProvider> */}
-      <ShoppingCart />
-      {/* <Counter /> */}
+      {/* <ShoppingCart /> */}
+      <Counter />
     </>
   );
 }
