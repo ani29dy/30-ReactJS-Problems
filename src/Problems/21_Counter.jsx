@@ -8,7 +8,7 @@ const reducer = (state, action) => {
       return { count: state.count - 1 };
     case "RESET":
       return { count: 0 };
-    case "INCREMENT":
+    default:
       return state;
   }
 };
