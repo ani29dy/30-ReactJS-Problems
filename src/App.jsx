@@ -22,6 +22,7 @@ import ChangeTheme from "./Problems/19-ChangeTheme";
 import { ThemeProvider } from "./ThemeContext";
 import ShoppingCart from "./Problems/20-Shopping";
 import Counter from "./Problems/21_Counter";
+import TaskList from "./Problems/22_ToDoList";
 
 function App() {
   const item = [
@@ -61,7 +62,8 @@ function App() {
         </div>
       </ThemeProvider> */}
       {/* <ShoppingCart /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <TaskList />
     </>
   );
 }
