@@ -14,7 +14,7 @@ import UploadImage from "./Problems/12-UploadImage";
 import LoginForm from "./Problems/13-LoginForm";
 import WeatherAPI from "./Problems/14-WeatherAPI";
 import SearchBar from "./Problems/15-SearchBar";
-import Pagination from "./Problems/16-Pagination";
+// import Pagination from "./Problems/16-Pagination";
 import ColorPicker from "./Problems/17-ColorPicker";
 import NavigationMenu from "./Problems/18-NavigationMenu";
 import ChangeThemeComp from "./Problems/19-ChangeThemeComp";
@@ -23,6 +23,7 @@ import { ThemeProvider } from "./ThemeContext";
 import ShoppingCart from "./Problems/20-Shopping";
 import Counter from "./Problems/21_Counter";
 import TaskList from "./Problems/22_ToDoList";
+import Pagination from "./Problems/23-UseReducePagination";
 
 function App() {
   const item = [
@@ -63,7 +64,8 @@ function App() {
       </ThemeProvider> */}
       {/* <ShoppingCart /> */}
       {/* <Counter /> */}
-      <TaskList />
+      {/* <TaskList /> */}
+      <Pagination />
     </>
   );
 }
