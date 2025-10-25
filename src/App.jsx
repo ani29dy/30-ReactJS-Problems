@@ -24,6 +24,8 @@ import ShoppingCart from "./Problems/20-Shopping";
 import Counter from "./Problems/21_Counter";
 import TaskList from "./Problems/22_ToDoList";
 import Pagination from "./Problems/23-UseReducePagination";
+import Authenticate from "./Problems/24_AuthUseContext";
+import { AuthProvider } from "./AuthContext";
 
 function App() {
   const item = [
@@ -65,7 +67,10 @@ function App() {
       {/* <ShoppingCart /> */}
       {/* <Counter /> */}
       {/* <TaskList /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <AuthProvider>
+        <Authenticate />
+      </AuthProvider>
     </>
   );
 }
