@@ -26,6 +26,7 @@ import TaskList from "./Problems/22_ToDoList";
 import Pagination from "./Problems/23-UseReducePagination";
 import Authenticate from "./Problems/24_AuthUseContext";
 import { AuthProvider } from "./AuthContext";
+import DragComponent from "./Problems/25-DragComp";
 
 function App() {
   const item = [
@@ -68,9 +69,10 @@ function App() {
       {/* <Counter /> */}
       {/* <TaskList /> */}
       {/* <Pagination /> */}
-      <AuthProvider>
+      {/* <AuthProvider>
         <Authenticate />
-      </AuthProvider>
+      </AuthProvider> */}
+      <DragComponent />
     </>
   );
 }
