@@ -27,6 +27,8 @@ import Pagination from "./Problems/23-UseReducePagination";
 import Authenticate from "./Problems/24_AuthUseContext";
 import { AuthProvider } from "./AuthContext";
 import DragComponent from "./Problems/25-DragComp";
+import Translate from "./Problems/26_Translate";
+import { LocalizeProvider } from "./LocalizeContext";
 
 function App() {
   const item = [
@@ -72,7 +74,10 @@ function App() {
       {/* <AuthProvider>
         <Authenticate />
       </AuthProvider> */}
-      <DragComponent />
+      {/* <DragComponent /> */}
+      <LocalizeProvider>
+        <Translate />
+      </LocalizeProvider>
     </>
   );
 }
