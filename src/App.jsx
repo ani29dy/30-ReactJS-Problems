@@ -29,6 +29,7 @@ import { AuthProvider } from "./AuthContext";
 import DragComponent from "./Problems/25-DragComp";
 import Translate from "./Problems/26_Translate";
 import { LocalizeProvider } from "./LocalizeContext";
+import MultipleAPIs from "./Problems/27-MultipleAPIs";
 
 function App() {
   const item = [
@@ -75,9 +76,10 @@ function App() {
         <Authenticate />
       </AuthProvider> */}
       {/* <DragComponent /> */}
-      <LocalizeProvider>
+      {/* <LocalizeProvider>
         <Translate />
-      </LocalizeProvider>
+      </LocalizeProvider> */}
+      <MultipleAPIs />
     </>
   );
 }
