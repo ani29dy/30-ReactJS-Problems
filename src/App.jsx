@@ -31,6 +31,7 @@ import Translate from "./Problems/26_Translate";
 import { LocalizeProvider } from "./LocalizeContext";
 import MultipleAPIs from "./Problems/27-MultipleAPIs";
 import MultipleState from "./Problems/28_MultipleStates";
+import MultipleImages from "./Problems/29_MultipleImages";
 
 function App() {
   const item = [
@@ -81,7 +82,8 @@ function App() {
         <Translate />
       </LocalizeProvider> */}
       {/* <MultipleAPIs /> */}
-      <MultipleState />
+      {/* <MultipleState /> */}
+      <MultipleImages />
     </>
   );
 }
