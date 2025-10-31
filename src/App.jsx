@@ -32,6 +32,7 @@ import { LocalizeProvider } from "./LocalizeContext";
 import MultipleAPIs from "./Problems/27-MultipleAPIs";
 import MultipleState from "./Problems/28_MultipleStates";
 import MultipleImages from "./Problems/29_MultipleImages";
+import RoutesExample from "./Problems/30-Routes";
 
 function App() {
   const item = [
@@ -83,7 +84,8 @@ function App() {
       </LocalizeProvider> */}
       {/* <MultipleAPIs /> */}
       {/* <MultipleState /> */}
-      <MultipleImages />
+      {/* <MultipleImages /> */}
+      <RoutesExample />
     </>
   );
 }
