@@ -33,6 +33,7 @@ import MultipleAPIs from "./Problems/27-MultipleAPIs";
 import MultipleState from "./Problems/28_MultipleStates";
 import MultipleImages from "./Problems/29_MultipleImages";
 import RoutesExample from "./Problems/30-Routes";
+import FetchUsers from "./Problems/31_FetchUsers";
 
 function App() {
   const item = [
@@ -85,7 +86,8 @@ function App() {
       {/* <MultipleAPIs /> */}
       {/* <MultipleState /> */}
       {/* <MultipleImages /> */}
-      <RoutesExample />
+      {/* <RoutesExample /> */}
+      <FetchUsers />
     </>
   );
 }
