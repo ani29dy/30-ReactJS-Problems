@@ -34,6 +34,7 @@ import MultipleState from "./Problems/28_MultipleStates";
 import MultipleImages from "./Problems/29_MultipleImages";
 import RoutesExample from "./Problems/30-Routes";
 import FetchUsers from "./Problems/31_FetchUsers";
+import SearchUsers from "./Problems/32_SearchUsers";
 
 function App() {
   const item = [
@@ -87,7 +88,8 @@ function App() {
       {/* <MultipleState /> */}
       {/* <MultipleImages /> */}
       {/* <RoutesExample /> */}
-      <FetchUsers />
+      {/* <FetchUsers /> */}
+      <SearchUsers />
     </>
   );
 }
