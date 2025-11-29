@@ -35,6 +35,7 @@ import MultipleImages from "./Problems/29_MultipleImages";
 import RoutesExample from "./Problems/30-Routes";
 import FetchUsers from "./Problems/31_FetchUsers";
 import SearchUsers from "./Problems/32_SearchUsers";
+import SortedUsers from "./Problems/33_SortedUsers";
 
 function App() {
   const item = [
@@ -89,7 +90,8 @@ function App() {
       {/* <MultipleImages /> */}
       {/* <RoutesExample /> */}
       {/* <FetchUsers /> */}
-      <SearchUsers />
+      {/* <SearchUsers /> */}
+      <SortedUsers />
     </>
   );
 }
